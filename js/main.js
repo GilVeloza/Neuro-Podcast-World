@@ -43,7 +43,7 @@ function particle(x) {
     //This sub-function renders and updates the state of the particle
     ctx.strokeStyle = "hsl(0, 0%, 100%)";
     ctx.beginPath();
-    ctx.arc(this.x, can.height / 2 + this.y, 10, 0, 2 * Math.PI);
+    ctx.arc(this.x, can.height / 2 - 150 + this.y, 10, 0, 2 * Math.PI);
     ctx.stroke();
     this.y = 0
     this.acc = 0

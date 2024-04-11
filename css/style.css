@@ -21,7 +21,7 @@
 
   /* You can change the colors of the title and description section by typing the color codes. */
   --title_color: #fff;
-  --description_color: #ffd622;
+  --description_color: #ffffff;
 
   /* You can change the colors of social media icons by changing the color code. */
   --svg_color: #fff;
@@ -29,22 +29,22 @@
   /* You can change the background, text color and active color of the menu by changing the color codes. */
   --menu_background_color: #0e0e0e;
   --menu_text_color: #fff;
-  --menu_active_text_color: #ffd622;
+  --menu_active_text_color: #ffffff;
 
   /* You can change the button's background, text color and active color by changing the color codes. */
   --button_background_color: #0e0e0e;
   --button_text_color: #fff;
-  --button_text_hover_color: #ffd622;
+  --button_text_hover_color: #ffffff;
 
   /* You can change the background, text color and active color of the text field by changing the color codes. */
   --textarea_background_color: #0e0e0e;
   --textarea_text_color: #fff;
-  --textarea_link_text_color: #ffd622;
+  --textarea_link_text_color: #ffffff;
 
   /* You can change the background, text color and active color of the footer area by changing the color codes. */
   --footer_background_color: #0e0e0e;
   --footer_text_color: #fff;
-  --footer_link_text_color: #ffd622;
+  --footer_link_text_color: #ffffff;
 }
 
 /* Basic Codes */
@@ -101,16 +101,21 @@ body {
 .header_text h1 {
   color: var(--title_color);
   font-weight: bold;
-  font-family: 'Dela Gothic One';
-  font-size: 30px;
-  letter-spacing: 1px;
-
+  font-family: 'helvetica';
+  font-size: 50px;
+  line-height: 70px;
+  letter-spacing: -3px;
 }
 
 
 .header_text h2 {
   color: var(--description_color);
   font-size: 1.5em;
+}
+
+.header_text h3 {
+  color: var(--description_color);
+  font-size: 15px;
 }
 
 /* Social Media Icons Codes */
@@ -120,8 +125,8 @@ body {
 }
 
 .header_svg_item {
-  width: 2.1em;
-  height: 2.1em;
+  width: 60px;
+  height: 60px;
   cursor: pointer;
 }
 
@@ -194,13 +199,14 @@ main {
   align-items: center;
   justify-content: center;
   color: var(--button_text_color);
-  background-color: var(--button_background_color);
   width: 41em;
-  margin-top: 1em;
+  margin-top: 0.2em;
   padding: 0.8em;
   border-radius: 0.3em;
-  min-height: 3.7em;
+  min-height: 3.0em;
   text-align: center;
+  font-size: 10px;
+
 }
 
 .main_button_item {
@@ -278,7 +284,7 @@ main {
     width: 92vw;
     text-align: center;
     font-weight: bold;
-    font-family: 'Dela Gothic One';
+    font-family: 'Arial';
     font-size: 22px;
   }
 
