@@ -21,7 +21,7 @@
 
   /* You can change the colors of the title and description section by typing the color codes. */
   --title_color: #fff;
-  --description_color: #f1c40f;
+  --description_color: #b649ff;
 
   /* You can change the colors of social media icons by changing the color code. */
   --svg_color: #fff;
@@ -29,22 +29,22 @@
   /* You can change the background, text color and active color of the menu by changing the color codes. */
   --menu_background_color: #0e0e0e;
   --menu_text_color: #fff;
-  --menu_active_text_color: #f1c40f;
+  --menu_active_text_color: #b649ff;
 
   /* You can change the button's background, text color and active color by changing the color codes. */
   --button_background_color: #0e0e0e;
   --button_text_color: #fff;
-  --button_text_hover_color: #f1c40f;
+  --button_text_hover_color: #b649ff;
 
   /* You can change the background, text color and active color of the text field by changing the color codes. */
   --textarea_background_color: #0e0e0e;
   --textarea_text_color: #fff;
-  --textarea_link_text_color: #f1c40f;
+  --textarea_link_text_color: #b649ff;
 
   /* You can change the background, text color and active color of the footer area by changing the color codes. */
   --footer_background_color: #0e0e0e;
   --footer_text_color: #fff;
-  --footer_link_text_color: #f1c40f;
+  --footer_link_text_color: #b649ff;
 }
 
 /* Basic Codes */
@@ -100,8 +100,13 @@ body {
 
 .header_text h1 {
   color: var(--title_color);
-  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Dela Gothic One';
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px #38164f;
 }
+
 
 .header_text h2 {
   color: var(--description_color);
@@ -196,6 +201,7 @@ main {
   border-radius: 0.3em;
   min-height: 3.7em;
   text-align: center;
+  font-family: 'Dela Gothic One';
 }
 
 .main_button_item {
@@ -272,6 +278,9 @@ main {
   .header_h_item {
     width: 92vw;
     text-align: center;
+    font-weight: bold;
+    font-family: 'Dela Gothic One';
+    font-size: 22px;
   }
 
 }
